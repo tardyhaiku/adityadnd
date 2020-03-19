@@ -1,0 +1,655 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "COS-Tables",
+				"abbreviation": "COS-T",
+				"full": "Curse of Strahd Custom Tables",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"Aditya Kumar"
+				],
+				"version": "2020.03.17",
+				"url": "https://dnd.wizards.com/products/tabletop-games/rpg-products/curse-strahd",
+				"targetSchema": "1.6.3"
+			}
+		],
+		"dateAdded": 1584449177,
+		"dateLastModified": 1584449177
+	},
+	"table": [
+		{
+			"name": "Ravenloft Encounters",
+			"source": "COS-T",
+			"caption": "Ravenloft Encounters",
+			"colLabels": [
+				"{@dice 1d12+1d8}",
+				"Encounter",
+				"Description & Notes"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-5",
+				"col-6"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2,
+							"pad": true
+						}
+					},
+					"{@creature Ezmerelda D'avenir|COS-B}",
+					"{@i You feel a gentle tap on your shoulder but see nothing behind you.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3,
+							"pad": true
+						}
+					},
+					"{@creature Rahadin|COS-B} or if he is dead, {@creature Escher Dimitrovich|COS-B}",
+					"{@i A voice echoes out of the darkness}:  {@b {@i The master wishes to meet you.} } ({@table Ravenloft Location|COS-T})"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4,
+							"pad": true
+						}
+					},
+					"{@creature cat|PHB|black cat}",
+					"{@i The darkness lets out a demonic hiss as a black cat darts out of the shadows, trying its best to avoid you.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5,
+							"pad": true
+						}
+					},
+					"{@creature broom of animated attack|COS}",
+					"{@i You hear a scratching noise. Out of the shadows comes a broom, sweeping its way toward you as though held by invisible hands.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6,
+							"pad": true
+						}
+					},
+					"2d4+1 {@creature flying sword|MM|flying swords}",
+					"{@i Out of the gloom flies a rusty blade, followed by another!}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 7,
+							"pad": true
+						}
+					},
+					"{@creature Strahd zombie|COS|Crawling Strahd Zombie}",
+					"{@i You hear the deathly groans of something vile, the sloughing scrape of flesh on stone, and the putrid stench of rotting flesh.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 8,
+							"pad": true
+						}
+					},
+					"{@table Blinsky Toys|COS-T}",
+					"{@i You find a discarded toy-something only a particularly twisted child could love. There is a small tag attached. {@b Is no Fun, Is no Blinsky!} }"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 9,
+							"pad": true
+						}
+					},
+					"{@table Unseen Servant|COS-B}",
+					"{@i A curious object drifts into view, as though held aloft by an invisible force.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 10
+						}
+					},
+					"1d4 {@creature Barovian commoner|COS|Barovian commoners}",
+					"{@i A loud clamor fills the normally silent halls of Ravenloft. Cries of {@b Kill the vampire!} are mixed with bold voices shouting {@b For Crimson Dawn!} }"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 11
+						}
+					},
+					"2d6+6 {@creature crawling claw|MM|crawling claws}",
+					"{@i A mob of severed hands, their mummified flesh black with soot, skitters out of the darkness across the dusty floor.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 12
+						}
+					},
+					"2d4 {@creature shadow|MM|shadows}",
+					"{@i You can't shake the feeling that something is behind you. When you look back, you see only your shadow, tall and still.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 13
+						}
+					},
+					"2d6 {@creature swarm of bats|MM|bat swarms}",
+					"{@i You hear a peal of thunder, followed by the flapping of tiny black wings. Suddenly, a dark cloud of bats descends upon you!}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 14
+						}
+					},
+					"2d4 {@creature thug|MM|Vistani Bandits} + 1 {@creature Vistani Bandit Captain|COS-B}",
+					"{@i You hear voices with thick familiar accents.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 15
+						}
+					},
+					"2d4 {@creature wight|MM|wights}",
+					"{@i The air grows much colder, and you can hear the march of footsteps drawing near.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 16
+						}
+					},
+					"{@table Ravenloft Trinket|COS-T}",
+					"{@i You kick something — a trinket half buried in the dust.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 17
+						}
+					},
+					"{@table Cocoon|COS-T}",
+					"{@i A white cocoon is suspended from the ceiling amid thick webs and appears to hold something human-like.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 18
+						}
+					},
+					"{@creature Barovian Witch|COS}",
+					"{@i You hear a woman's scratchy voice calling out a name.}—{@b Grizzlegut! Grizzlegut, where are you? A pox on you, you mangy cat!}—{@i Through the darkness comes a crone wearing a pointed black hat and a burlap gown stained with soot.}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 19
+						}
+					},
+					"2d4 {@creature vampire spawn|MM} + {@table Brides of Strahd|COS-T}",
+					"{@i Creatures with pale flesh scuttle across the ceiling like spiders, their red eyes glowing in the dark. As they draw near, their cracked and bloodstained lips open wide, revealing sharp fangs. Standing below them, approaching calmly is . . .}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 20
+						}
+					},
+					"{@creature Strahd von Zaddyvich|MM|Strahd von Zarovich}",
+					"{@i A crack of thunder shakes the castle, stirring the dust and cobwebs. You hear a voice:{@b Good evening.}.}"
+				]
+			]
+		},{
+			"name": "Ravenloft Location",
+			"source": "COS-T",
+			"caption": "Locations within Castle Ravenloft",
+			"colLabels": [
+				"{@dice 1d6}",
+				"Location Name",
+				"Location Code"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-8",
+				"col-3"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"The Chapel",
+					"{@b K15}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"The Audience Hall",
+					"{@b K25}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"Strahd's Study",
+					"{@b K37}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"The Tower Roof",
+					"{@b K57}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"The Wine Cellar",
+					"{@b K63}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"The Torture Chamber",
+					"{@b K76}"
+				]
+			]
+		},
+		{
+			"name": "Blinsky Toys",
+			"source": "COS-T",
+			"caption": "Blinsky Toys",
+			"colLabels": [
+				"{@dice 1d6}",
+				"Blinsky Toy"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"A plush werewolf stuffed with sawdust and tiny woodcarved babies. It has dull knife blades for claws and retractable teeth."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"A smiling jester marionette with tangled strings and tiny copper bells sewn into its cap."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"A wooden puzzle box, 6 inches on a side, carved with silhouettes of leering clown faces. The box rattles when shaken. A character who spends a short rest fiddling with the box can figure out how to open it with a successful {@dc 20} intelligence check. The box contains 1 CP each time it is opened."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"A faceless doll in a wedding dress that has yellowed and frayed with age."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"A vaguely coffin-shaped jack-in-the-box containing a pop-up Strahd puppet. Characters that touch the puppet must pass a {@dc 10} dexterity save, or take 1 point of piercing damage from the pop-up puppet's fangs."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"A spring-loaded set of wooden teeth with fangs, all painted white. The teeth gnash and chatter for 1 minute when the spring is wound tight (requiring an action) and released."
+				]
+			]
+		},
+		{
+			"name": "Unseen Servant",
+			"source": "COS-T",
+			"caption": "Strahd's Servant",
+			"colLabels": [
+				"{@dice 1d6}",
+				"Item Carried"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"A slightly tarnished silver platter with a lid (worth {@b 25 GP}). If a character comes within 5 ft of the servant, it lifts the lid, revealing a tray of scones. The first character to eat a scone gains inspiration. On later occurrences of this encounter, the platter holds a {@creature crawling claw|MM} that attacks the nearest character."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"An immaculate silver goblet (worth {@b 50 GP}) filled to the brim with a dark red liquid. The first time a character drinks it, the wine grants {@dice 2d12} temporary hit points. The second time, the character must pass a {@dc 18} Constitution save or take {@dice 8d10} poison damage, halved on a success."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"A gold candelabrum (worth {@b 150 GP}) with three branches, each one holding an unlit candle."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"A purple silk handkerchief with white ruffled edges (worth {@b 1 PP}). On future occurrences of this encounter, the handkerchief is smeared with fresh blood."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"A crystal dinner bell (worth {@b 25 GP}). The unseen servant rings the bell if the characters come within 10 feet of it. The sound attracts hungry vampire spawn (as in the encounter table), which arrive in {@dice ld4+l} rounds."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"A non-magical leather-bound storybook (worth {@b 25 GP}). On the third occurrence of this encounter, it is instead a wizard's spell book with a black velvet dust jacket over its stitched leather cover. The book contains all the spells Strahd has prepared."
+				]
+			]
+		},
+		{
+			"name": "Ravenloft Trinket",
+			"source": "COS-T",
+			"caption": "Random Trinkets found in Castle Ravenloft",
+			"colLabels": [
+				"{@dice 1d8}",
+				"Trinket Discovered"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"An empty wine bottle with {@i Red Dragon Crush} on the label."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"An empty vial of holy water, with a stylized pewter emblem of a Shield and Longsword on the side."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"A faded locket portrait of a beautiful woman with raven black hair and piercing blue eyes, who always seems to stare at you when looked at."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"A Tarokka card ripped in half, depicting a man facing left in armor, holding a shield. There is neither name, number, nor glyph on the card..."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"A broken wooden stake, with the letters R.V.R. carved in the top of it."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"A tooth on a loop of string. Somebody's canine, possibly human."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 7
+						}
+					},
+					"An ivory brooch bearing the image of a young maiden's face and her hands folded in prayer. Her eyes weep tears in the presence of the undead."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 8
+						}
+					},
+					"Ten feet of hemp rope, tied into a noose at both ends."
+				]
+			]
+		},
+		{
+			"name": "Cocoon",
+			"source": "COS-T",
+			"caption": "Giant Spider Cocoon",
+			"colLabels": [
+				"{@dice 1d6}",
+				"Cocoon Contents"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 1
+						}
+					},
+					"A wooden mannequin wearing a gown."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 2
+						}
+					},
+					"A {@creature Barovian witch|COS}. She screams like a wild animal when freed then begins casting spells."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 3
+						}
+					},
+					"A {@creature Strahd zombie|COS}. It fights until killed."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 4
+						}
+					},
+					"A {@creature Barovian commoner|COS}. If freed, his/her unhinged mind makes him/her cackle until {@spell calm emotions} or {@spell lesser restoration} cures his/her madness, at which point s/he tries to flee the castle."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 5
+						}
+					},
+					"A dead Barovian that serves as host to a {@creature swarm of spiders|MM}. The baby giant spiders (each one the size of a tarantula) crawl out of the Barovian's gaping mouth & burst forth from its distended belly."
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 6
+						}
+					},
+					"A {@creature Vistani Bandit Captain|COS-B}. The Vistana knows the castle's layout and helps the characters as the other Vistani would."
+				]
+			]
+		},
+		{
+			"name": "Brides of Strahd",
+			"source": "COS-T",
+			"caption": "The Brides of Strahd",
+			"colLabels": [
+				"{@dice 1d12}",
+				"Bride"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-11"
+			],
+			"rows": [
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 1,
+							"max": 4,
+							"pad": true
+						}
+					},
+					"{@creature Anastrasya Karelova|COS-B}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"min": 5,
+							"max": 11,
+							"pad": true
+						}
+					},
+					"{@creature Volenta Popofsky|COS-B}"
+				],
+				[
+					{
+						"type": "cell",
+						"roll": {
+							"exact": 12
+						}
+					},
+					"{@creature Escher Dimitrovich|COS-B}"
+				]
+			]
+		}
+	]
+}
